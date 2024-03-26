@@ -1,0 +1,81 @@
+/*CONTENEURS*/
+html{
+    padding:0% 5% 0% 5% ;
+    height:100% ;
+    background-color:rgba(9, 7, 7, 1);
+}
+
+body{
+    padding:0% 5% 0% 5%;
+    margin:0px;
+    background-color:MintCream;
+    height:100%;
+    background-color:rgba(9, 7, 7, 1);
+}
+
+nav{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.liens{
+    padding:10px 30px 10px 30px;
+    font-family:Arial;
+    font-size: 20pt;
+}
+
+.liens:hover{
+    background-image: linear-gradient(to right, MintCream , MediumTurquoise);
+}
+
+section{
+    font-family : Times;
+    font-size : 18pt;
+    color:CadetBlue;
+}
+
+#footer{
+    padding-top:10px;
+    font-family:Times;
+    font-style:italic;
+    font-size:12pt;
+    text-align:center;
+}
+
+/*TITRES & PARAGRAPHES*/
+
+h1{
+    text-align:center;
+    font-family:Arial;
+    color:rgba(255, 255, 255, 1);
+    font-size:32pt;
+}
+
+
+/*FORMULAIRES*/
+
+form{
+    padding:20px 0px 20px 30px;
+}
+
+/*TABLEAUX*/
+
+.logo{
+    max-width: 39px;
+    padding:22px 0px 0px;
+
+}
+
+.header-link-text{
+    font-family:Poppins;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding:0px 16px 0px;
+
+}
+
+.header-links{
+    padding:24px;
+}
+

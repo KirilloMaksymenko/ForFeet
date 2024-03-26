@@ -1,0 +1,22 @@
+        <form method="POST" action="rechercher">
+            <legend>Effectuer une recherche par nom ou prénom</legend>
+            <label for="input_nom1">NOM :</label>
+            <input type="text" name="NOM1" id="input_nom1"/>
+            <br/>
+            <label for="input_prenom1">Prénom :</label>
+            <input type="text" name="PRENOM1" id="input_prenom1"/>
+            <br/>
+            <input type="submit" value="Rechercher les élèves"/>
+        </form>
+        <!--FORMULAIRE D'AJOUT'-->
+        <br/>
+        <form method="POST" action="ajouter">
+            <legend>Ajouter un élève</legend>
+            <label for="input_nom2">NOM :</label>
+            <input type="text" name="NOM2" id="input_nom2"/>
+            <br/>
+            <label for="input_prenom2">Prénom :</label>
+            <input type="text" name="PRENOM2" id="input_prenom2"/>
+            <br/>
+            <input type="submit" value="Ajouter l'élève"/>
+        </form>
